@@ -93,3 +93,13 @@ span{
 .home-img img:hover{
     transform: scale(1.1);
 }
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    border: 0.1rem solid rgb(31, 163, 252);
+}

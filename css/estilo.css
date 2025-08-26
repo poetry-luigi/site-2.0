@@ -171,3 +171,19 @@ color:rgb(31, 163, 252);
         content: "homem de familia";
     }
 }
+
+@media(max-width:995px){
+    nav{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid rgb(31, 163, 252) ;
+        border-bottom: 3px solid rgb(31, 163, 252);
+        padding: 1rem;
+        background-color: rgb(23, 87, 129);
+        border-top: 0.1rem solid rgb(31, 163, 252);
+    }
+
+}

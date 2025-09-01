@@ -12,13 +12,15 @@
 }
 html{
 font-size: 100.5%;
+scroll-padding-top: 80px;
 }
  
 body{
-    width: 110%;
+     background-image: url(../img/fundo.jpg);
+    background-size: cover;
+     width: 110%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: rgb(0, 0, 0);
     color: aliceblue;
 }
 header{
@@ -36,7 +38,7 @@ header{
 }
 .logo{
     font-size: 3rem;
-    color: aquamarine;
+    color:aliceblue;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -53,8 +55,8 @@ nav a{
 }
 nav a:hover,
 nav a.active{
-    color: aquamarine;
-    border-bottom: 3px solid aquamarine;
+    color: aliceblue;
+    border-bottom: 3px solid aliceblue;
     
 }
 section{
@@ -66,7 +68,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: black;
+    
 }
 .home .home-content h1{
     font-size: 4rem;
@@ -74,7 +76,7 @@ section{
     line-height: 1.3;
 }
 span{
-    color: rgb(31, 163, 252);
+    color: aliceblue;
 }
 .home-content h3{
     font-size: 5rem;
@@ -101,13 +103,13 @@ span{
     height: 2rem;
     background-color: transparent;
     font-size: 1.5rem;
-    border: 0.1rem solid rgb(31, 163, 252);
-color:rgb(31, 163, 252);
+    border: 0.1rem solid aliceblue;
+color:aliceblue;
     margin: 0.1rem;
     transform: 0.3s ease;
 }
 .social-icons a:hover{
-    background-color:rgb(31, 163, 252);
+    background-color: aliceblue;
     color: white;
 }
 .btn{
@@ -115,16 +117,16 @@ color:rgb(31, 163, 252);
     text-align: center;
     padding: 1rem 2rem;
     font-size: 2rem;
-    color: white;
-    background-color:rgb(31, 163, 252);
+    color: rgb(27, 26, 26);
+    background-color:aliceblue;
     border-radius: 2.5rem;
     transition: 0.3s ease;
     margin-top: 0.75rem;
 }
 .btn:hover{
     transform: scale3d(1.03);
-    background-color:rgb(31, 163, 252);
-    color: rgb(255, 255, 255);
+    background-color:aliceblue;
+    color: rgba(255, 255, 255, 0.301);
     box-shadow: 0 0 25pxrgb(31, 163, 252);
 }
 .typing-text{
@@ -137,7 +139,7 @@ color:rgb(31, 163, 252);
 }
 .typing-text span::before{
     content: "";
-    color:rgb(31, 163, 252);
+    color:rgba(185, 182, 181, 0.712);
     animation: words 20s infinite;
 }
 .typing-text span::after{
@@ -253,4 +255,20 @@ color:rgb(31, 163, 252);
     border-left: 5px solid  rgb(31, 163, 252);
     padding-left: 1.5rem;
     color:  rgb(31, 163, 252);
+}
+section p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: rgb(31, 163, 252);
+}
+ 
+#contato a {
+    color: rgb(31, 163, 252);
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+ 
+#contato a:hover {
+    color: rgb(31, 163, 252);
+    text-decoration: underline;
 }

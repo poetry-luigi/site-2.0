@@ -16,25 +16,29 @@ scroll-padding-top: 80px;
 }
  
 body{
-     background-image: url(../img/fundo.jpg);
+     background-image: url(../img/fundobom.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
      width: 110%;
     height: 100vh;
     overflow-x: hidden;
     color: aliceblue;
+  
 }
 header{
-    margin-top: 20px;
+    
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    background-color: transparent;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    border: 5px solid white;
 }
 .logo{
     font-size: 3rem;
@@ -85,6 +89,7 @@ span{
 }
 .home-content p{
     font-size: 1.6rem;
+    color: aliceblue;
 }
 .home-img img{
     position: relative;
@@ -140,7 +145,7 @@ color:aliceblue;
 .typing-text span::before{
     content: "";
     color:rgba(185, 182, 181, 0.712);
-    animation: words 20s infinite;
+    animation: words 10s infinite;
 }
 .typing-text span::after{
     content: "";
@@ -157,20 +162,14 @@ color:aliceblue;
     }
 }
 @keyframes words{
-    0%, 20%{
-        content:"corinthiano"
+    0%, 35%{
+        content:"vigilante"
     }
-    21%, 40%{
-        content:"poeta"
+    36%, 65%{
+        content:"curso e reciclagem"
     }
-    41%,60%{
-        content:"rimador e freestyleiro"
-    }
-    61%,80%{
-        content:"criador de batalha"
-    }
-    81%,100%{
-        content: "homem de familia";
+    66%, 100%{
+        content:"Segurança privada"
     }
 }
 
@@ -254,12 +253,14 @@ color:aliceblue;
     margin-bottom: 2rem;
     border-left: 5px solid  rgb(31, 163, 252);
     padding-left: 1.5rem;
-    color:  rgb(31, 163, 252);
+    color:  rgb(255, 255, 255);
 }
 section p {
     font-size: 1.8rem;
     line-height: 1.7;
-    color: rgb(31, 163, 252);
+    color: rgb(245, 245, 245);
+    align-items: center;
+    margin-top: 3rem;
 }
  
 #contato a {
@@ -271,4 +272,7 @@ section p {
 #contato a:hover {
     color: rgb(31, 163, 252);
     text-decoration: underline;
+}
+.blocos section:servicos{
+    color: aliceblue;
 }

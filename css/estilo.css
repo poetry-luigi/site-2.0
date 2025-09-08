@@ -273,6 +273,7 @@ section p {
     color: rgb(31, 163, 252);
     text-decoration: underline;
 }
-.blocos section:servicos{
-    color: aliceblue;
+.blocos {
+    margin-top: 4rem;
+    align-items: center;
 }

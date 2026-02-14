@@ -31,14 +31,15 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 1rem 9%;
+    width: 99%;
+    padding: 0,5rem 9%;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    border: 5px solid white;
+    border: 2px solid white;
+    font-size: 50%;
 }
 .logo{
     font-size: 3rem;
